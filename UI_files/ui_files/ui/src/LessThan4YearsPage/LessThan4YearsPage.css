@@ -1,0 +1,29 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+.webcam__download__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+  .less__than__3__download__button{
+      padding: 20px;
+      width: 250px;
+      height: 65px;
+  }
+
+  .modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+}
+
+  .less__than__3__years__modal{
+      align-self: center;
+  }

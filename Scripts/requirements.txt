@@ -1,0 +1,4 @@
+jupyter==1.0.0
+matplotlib==2.1.0
+opencv-python==3.4.2.16
+caffe-cpu on conda

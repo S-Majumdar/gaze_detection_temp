@@ -1,0 +1,25 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  background: linear-gradient(#283747 , #1F618D);
+  position: relative;
+
+  color: white;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage__buttons{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25vh;
+}

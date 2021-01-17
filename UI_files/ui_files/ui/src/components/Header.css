@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.homepage__welcome_message{
+    font-size: 25px;
+  }
+
+  .header__icon{
+      color: white;
+  }
