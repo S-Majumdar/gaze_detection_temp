@@ -1,7 +1,7 @@
 # TEMP
 
 ## TEMP
-This is temp. repo. only for testing. 
+This is a temp. repo. only for testing. 
 ## JAI
 All the combined files are in the Scripts dir. 
 Run jsut the `combined.py` and see if the google part works. I couldnt check it coz of the auth key.
