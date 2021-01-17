@@ -12,28 +12,13 @@ app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
 @app.route('/combined')
 def combine():
-	os.rmdir("videos")
+	#os.rmdir("videos")
 	emotion_detect = create_df()
 	gaze_prediction = main()
 	return render_template("plot.html", user_image=os.path.join(app.config['UPLOAD_FOLDER'], 'heatmap.jpg'), 
 		user_image_1=os.path.join(app.config['UPLOAD_FOLDER'], 'plot.png'))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
 
 
 # if __name__ == '__main__':

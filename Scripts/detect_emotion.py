@@ -14,8 +14,8 @@ import time
 from flask import Flask
 
 UPLOAD_FOLDER = os.path.join("static", "images")
-# app = Flask(__name__)
-# app.config['UPLOAD_FOLDER'] = os.path.join("static", "images")
+app = Flask(__name__)
+app.config['UPLOAD_FOLDER'] = os.path.join("static", "images")
 
 
 def detect_faces(path):
